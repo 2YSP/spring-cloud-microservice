@@ -23,3 +23,9 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/microservice-discovery-eureka/mvnw
+/microservice-discovery-eureka/mvnw.cmd
+/microservice-discovery-eureka/target/
+/microservice-provider-user/target/
+/microservice-consumer-movie/target/
+/*/.idea/
