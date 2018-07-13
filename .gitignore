@@ -29,3 +29,13 @@
 /microservice-provider-user/target/
 /microservice-consumer-movie/target/
 /*/.idea/
+/microservice-discovery-eureka/.mvn/
+/microservice-provider-user/.idea/
+/microservice-discovery-eureka-ha/.mvn/
+/microservice-discovery-eureka-ha/target/
+/microservice-discovery-eureka-ha/mvnw
+/microservice-discovery-eureka-ha/mvnw.cmd
+/microservice-discovery-eureka-auth/mvnw
+/microservice-discovery-eureka-auth/mvnw.cmd
+/microservice-discovery-eureka-auth/.mvn/
+/microservice-discovery-eureka-auth/target/
