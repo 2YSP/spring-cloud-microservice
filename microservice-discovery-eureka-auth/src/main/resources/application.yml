@@ -1,0 +1,18 @@
+server:
+  port: 8761
+eureka:
+  client:
+    ### 是否将自己注册到Eureka Server
+    register-with-eureka: false
+    ### 是否从Eureka Server获取注册信息,因为这是单节点不需要同步其他Eureka Server节点的数据，故为false
+    fetch-registry: false
+    ### 设置与Eureka Server的交互地址，多个地址可用,分隔
+    serviceUrl:
+    ## 只需要将Eureka Client的这项配置改为 http://user:password@EUREKA_HOST:EUREKA_PORT/eureka/即可认证成功
+      defaultZone: http://localhost:8761/eureka/
+security:
+  basic:
+    enabled: true # 开启基于HTTP basic的认证
+  user:
+    name: admin  # 配置登录的用户名
+    password: 112233 #配置登录的密码
