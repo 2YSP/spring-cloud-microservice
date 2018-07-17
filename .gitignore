@@ -39,3 +39,5 @@
 /microservice-discovery-eureka-auth/mvnw.cmd
 /microservice-discovery-eureka-auth/.mvn/
 /microservice-discovery-eureka-auth/target/
+/microservice-consumer-movie-ribbon-customizing/target/
+/microservice-consumer-movie-ribbon/target/
