@@ -4,8 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
-import org.springframework.context.annotation.Bean;
-import org.springframework.web.client.RestTemplate;
 
 /**
  * 使用Feign进行声明式的REST Full API调用
@@ -14,11 +12,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 @SpringBootApplication
 public class MicroserviceConsumerMovieFeignApplication {
-
-	@Bean
-	public RestTemplate restTemplate(){
-		return new RestTemplate();
-	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(MicroserviceConsumerMovieFeignApplication.class, args);

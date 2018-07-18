@@ -41,3 +41,6 @@
 /microservice-discovery-eureka-auth/target/
 /microservice-consumer-movie-ribbon-customizing/target/
 /microservice-consumer-movie-ribbon/target/
+/microservice-consumer-movie-feign/target/
+/microservice-consumer-movie-feign-manual/target/
+/microservice-provider-user-with-auth/target/
