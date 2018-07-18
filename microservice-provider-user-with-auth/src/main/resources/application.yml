@@ -1,0 +1,25 @@
+
+server:
+  port: 8000
+
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+spring:
+  application:
+    ## 指定注册到Eureka Server的服务名称
+    name: microservice-provider-user
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    ## 表示将自己的IP注册到Eureka Server，如果为false则为hostname
+    preferIpAddress: true
+    ## 加上这个才显示ip
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+
