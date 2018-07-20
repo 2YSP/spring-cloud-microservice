@@ -1,6 +1,7 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-
+target
+.mvn
+*.cmd
+mvnw
 ### STS ###
 .apt_generated
 .classpath
@@ -23,24 +24,5 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-/microservice-discovery-eureka/mvnw
-/microservice-discovery-eureka/mvnw.cmd
-/microservice-discovery-eureka/target/
-/microservice-provider-user/target/
-/microservice-consumer-movie/target/
-/*/.idea/
-/microservice-discovery-eureka/.mvn/
-/microservice-provider-user/.idea/
-/microservice-discovery-eureka-ha/.mvn/
-/microservice-discovery-eureka-ha/target/
-/microservice-discovery-eureka-ha/mvnw
-/microservice-discovery-eureka-ha/mvnw.cmd
-/microservice-discovery-eureka-auth/mvnw
-/microservice-discovery-eureka-auth/mvnw.cmd
-/microservice-discovery-eureka-auth/.mvn/
-/microservice-discovery-eureka-auth/target/
-/microservice-consumer-movie-ribbon-customizing/target/
-/microservice-consumer-movie-ribbon/target/
-/microservice-consumer-movie-feign/target/
-/microservice-consumer-movie-feign-manual/target/
-/microservice-provider-user-with-auth/target/
+
+
