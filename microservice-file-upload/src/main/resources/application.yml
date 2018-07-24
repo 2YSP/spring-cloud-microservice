@@ -1,0 +1,21 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: microservice-file-upload
+  http:
+    multipart:
+      max-file-size: 2000Mb   # 默认1M
+      max-request-size: 2500Mb # 默认10M
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+## 上传大文件将超时时间设置的长一些
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 6000
+ribbon:
+  ConnectTimeOut: 3000
+  ReadTimeOut: 60000
