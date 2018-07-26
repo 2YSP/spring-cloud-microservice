@@ -12,4 +12,4 @@ spring:
           # 配置Git仓库的用户名
           username: 2YSP
           # 配置Git仓库的密码
-          password: 
+          password: xxx
